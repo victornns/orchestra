@@ -96,7 +96,7 @@ gulp.task('styles', function() {
                 .pipe(sass({
                       errLogToConsole: true,
                       includePaths: [
-                          'app/styles/scss/'
+                          'app/styles/sass/'
                       ]
                 }))
                 .pipe(autoprefixer({
@@ -201,7 +201,7 @@ gulp.task('scaffold', function() {
 gulp.task('default', ['browserSync', 'scripts', 'styles'], function() {
     //a list of watchers, so it will watch all of the following files waiting for changes
     gulp.watch('app/scripts/src/**', ['scripts']);
-    gulp.watch('app/styles/scss/**', ['styles']);
+    gulp.watch('app/styles/sass/**', ['styles']);
     gulp.watch('app/images/**', ['images']);
     gulp.watch('app/*.html', ['html']);
 });
