@@ -1,4 +1,4 @@
-// Tools and Settings: Global SASS variables, functions and mixins.
+// Tools and Settings: Global SASS variables, functions and mixins
 @import 'settings/settings';
 
 @import 'tools/breakpoint';
@@ -7,25 +7,20 @@
 @import 'tools/pixels-to-rem';
 @import 'tools/prefix';
 
-
-// Generic: Very far reaching selectors and font imports. In this case, we set box-sizing and reset browsers defaults.
+// Generic: Very far reaching selectors and font imports
 @import 'generic/reset';
 
-
-// Base: Default styling on classless elements, such as html/body and type elements.
+// Base: Default styling on classless elements
 @import 'base/root';
-
 
 // Objects: Selectors which define undecorated design patterns
 @import 'objects/buttons';
 
-
-// Components: The bulk of our code: Defined peices of the site selected with classes and using BEM where appropriate.
+// Components: The bulk of our code: Defined peices of the site selected with classes and using BEM where appropriate
 @import 'components/grid';
 @import 'components/header';
-@import 'components/footer';
 @import 'components/nav';
+@import 'components/footer';
 
-
-// Overrides, helpers and utilities; our most specific selectors that should always trump earlier rules.
+// Overrides, helpers and utilities; our most specific selectors that should always trump earlier rules
 @import 'utilities/helpers';

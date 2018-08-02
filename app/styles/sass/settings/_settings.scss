@@ -6,17 +6,10 @@ $dark-color: #000;
 
 
 // fonts
-$font-size-xs: 13px;
-
-$font-size-sm: 14px;
-
-$font-size-md: 17px;
-
-$font-size-lg: 20px;
-
-
-$font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size-default: px-to-rem(14px);
 
 $font-normal: 200;
 $font-semi-bold: 400;
 $font-bold: 600;
+
+$font-family: Verdana, Arial, Helvetica, sans-serif;

@@ -17,5 +17,5 @@ This boilerplate is just a starting point for any new CSS project. It's extremel
 * **Generic**: Very far reaching selectors. CSS resets where elements are selected directly and restting non-standard form behaviours.
 * **Base**: Default styling on elements without classes, such as typography (`h1`, `h2`, etc) and base elements (`html`, `body`).
 * **Objects**: Class-based selectors which define undecorated design patterns, for example media object known from OOCSS.
-* **Components**: Defined parts of the site (navigation, header, footer, carousel) selected with classes, using BEM where appropriate. If it's not obvious what each partial affects, add a comment in your main `.scss` file when it is imported.
-* **utilities**: Overrides, helpers, utilities and shame. The highest specificity and/or classes/properties that must always 'win', using the cascade to beat earlier properties.
+* **Components**: Defined parts of the site (navigation, header, footer, carousel) selected with classes, using BEM where appropriate.
+* **utilities**: Overrides, helpers, utilities. The highest specificity and/or classes/properties that must always 'win', using the cascade to beat earlier properties.
